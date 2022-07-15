@@ -1,7 +1,13 @@
+import NotificationButton from "./components/NotificationButton"
+
 function App() {
-    return(
+  return (
+    <>
       <h1>HELLO</h1>
-    )
+      <NotificationButton />
+      <NotificationButton />
+    </>
+  )
 }
 
 export default App
